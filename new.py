@@ -272,8 +272,8 @@ class IDSMMG:  # Improved Dual Semantic Memory Graph
 # ================= USAGE (ENHANCED) =================
 def main():
     smg = IDSMMG()
-    
-    pdf_path = r"C:\Users\Dell-pc\Desktop\improved\pdf\physics-book.pdf"
+    #------Add your file path-----
+    pdf_path = r"C:\Users\Dell-pc\Desktop\improved\pdf\physics-book.pdf" -
     print("Building Dual Semantic Memory Graph...")
     smg.build_dual_memory(pdf_path)  # Replaces build_graph()
     
