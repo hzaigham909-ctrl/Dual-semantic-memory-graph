@@ -1,0 +1,1 @@
+-e "fitz\nnetworkx\nnltk\nsentence-transformers\nnumpy" 
